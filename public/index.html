@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jsx</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="path/to/your/bundle.js"></script>
+<script src="dist/bundle.js"></script>
+
+  <script>
+  var editor = new Behave({
+    textarea:document.querySelector('textarea'),
+    replaceTab:     true,
+    softTabs:       true,
+    tabSize:        2,
+    autoOpen:       true,
+    overwrite:      true,
+    autoStrip:      true,
+    autoIndent:     true
+  });
+  </script>
+</body>
+</html>
